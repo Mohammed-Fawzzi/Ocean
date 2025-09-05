@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container: {
+        center: true,
+        padding: "1.5rem", 
+      },
+      transitionDuration: {
+        DEFAULT: "300ms", 
       },
     },
   },
