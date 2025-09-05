@@ -5,7 +5,6 @@ import { footerColumns } from "@/constants/footer-links";
 import Link from "next/link";
 
 const Footer = () => {
-    const currentYear = new Date().getFullYear();
     const socialLinks: ReactNode[] = [
         <Facebook key="f" className="social-link" />,
         <Instagram key="i" className="social-link" />,
